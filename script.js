@@ -1,10 +1,11 @@
 function calculateTax() {
+
     var income = document.getElementById('incomeAmount').value
-    if (!Number.isInteger(income)){
-        alert("Please Enter a Valid Number");
+
+    if (!Number.isInteger(Number(income))) {
+        document.getElementById('result').innerHTML = "Please Enter a Valid Number"
         return;
     }
-        
 
     if (income <= 1200000) {
         document.getElementById('result').innerHTML = "No Tax";
