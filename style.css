@@ -1,0 +1,28 @@
+body {
+    background-color: antiquewhite;
+  }
+  
+  h1 {
+    text-align: center;
+    background-color: pink;
+    padding: 70px;
+    font-weight: bolder;
+    margin: -0.5rem;
+  }
+  .container {
+    margin: 3rem;
+    text-align: center;
+    font-size: 30px;
+    border-width: 200px;
+  }
+  #incomeAmount {
+    font-size: 30px;
+  }
+  #calculateTax {
+    text-align: center;
+    font-size: 30px;
+  }
+  #result {
+    font-size: 30px;
+    margin: 3rem;
+  }
